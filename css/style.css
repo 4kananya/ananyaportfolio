@@ -1,0 +1,138 @@
+@import 'utility.css';
+:root{--green:#92e000;
+--dark:#000000;
+--grey:#cfcdcd;
+--coffee:#502f04e3;
+--pure:#ffffff;}
+body{font-family: 'Merriweather Sans';}
+*{padding: 0;
+margin: 0;
+box-sizing: border-box;
+-webkit-font-smotthing:antialised;}
+header{
+    background: var(--dark);
+    clip-path:polygon(0 0, 100% 0, 100% 88%, 22% 100%, 0 88%);
+}
+.container{
+    max-width:115500px;
+padding:0 15px; 
+margin: 0 210px;
+}
+
+header nav .left a{
+    color:var(--pure);
+    text-decoration: none;
+margin-right: 2rem;}
+header nav .left a:hover{
+    color:var(--grey);
+}
+    header nav{
+        padding:2rem 3;}
+        .pic .right img{
+            width: 350px;
+        }
+        .pic .left {
+            color:var(--green);
+        }
+        .pic .left h5{
+            color:var(--green);
+            margin-bottom: 3rem;
+            font-size: 2.5rem;
+            font-family: 'Roboto Mono', monospace;
+        }
+        .pic .left h1{
+            color:var(--grey);
+            font-size: 4.5rem;
+            font-weight: 8;
+            line-height: 1.2px;
+            margin-top: 2rem;
+            margin-bottom: 2.65rem;}
+        .pic .left h1 span{
+            color:var(--coffee);}
+            .pic .left {
+                margin-top:-4rem;
+            }
+            section{
+                padding:6rem 0;}
+                section .about .about-img{
+    height: 445px;
+    width: 300px;
+}
+section.about h1{
+    margin-bottom:2rem;
+font-size: 1.7rem;
+font-weight: 400;
+font-family: 'Arvo', serif;}
+
+section.about h1 span{
+    color: var(--green);
+}
+section.about p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+section.galler{
+    background-color: var(--grey);
+} 
+.section-heading{
+    color: #000;
+    text-align:center;
+    margin-bottom: 2rem;
+    line-height: 0.5;
+    font-size: 1.9rem;
+    font-weight: 350;
+    font-family: 'Arvo', serif;
+}
+
+.section-heading span{
+    color:var(--coffee);
+}
+ 
+      section.galler.gallery {
+        margin: 100px auto 50px;
+        display:grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-gap: 30px;
+        width: 80%;
+
+      }
+
+      
+      section.galler.gallery img
+      {
+        width: 100%;
+        cursor: pointer;
+          
+          }
+      section.hobby{
+          text-align: center;
+          background: var(--coffee);
+          clip-path:polygon(0 0, 95% 6%, 100% 100%, 0 100%);
+      }
+      section.hobby h1{
+          color:var(--dark);
+          font-family: 'Arvo', serif;
+          margin-bottom:2rem;
+          font-size: 1.8rem;
+          font-weight: 400;}
+      section.hobby h1 span{
+        color: var(--green);}
+
+        section.hobby.treck img {
+            margin: 100px auto 50px;
+            display:grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-gap: 30px;
+            width: 80%;}
+        section.hobby h2{
+                color:var(--green);
+                font-family: 'Arvo', serif;
+                margin-bottom:0.3rem;
+                font-weight: 300;
+            }
+            section.hobby p{
+                font-family: 'Arvo', serif;
+                font-size: 1.35rem;
+                margin-bottom: 5rem;
+            }
